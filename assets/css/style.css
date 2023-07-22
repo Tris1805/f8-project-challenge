@@ -14,7 +14,6 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-    height: 10000px;
 }
 
 /* Common */
@@ -407,4 +406,164 @@ a {
     margin-right: 10px;
     background: #1ebfc1;
     border-radius: 50%;
+}
+/* ========== Stats ========== */
+.stats {
+    margin-top: 260px;
+}
+.stats .body {
+    display: flex;
+    justify-content: space-evenly;
+}
+.stats .info strong {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.stats .info span {
+    display: block;
+    text-align: center;
+    margin-top: 11px;
+    color: #767e7e;
+    font-size: 1.8rem;
+}
+/* ========== Stats ========== */
+.feedback {
+    margin-top: 265px;
+}
+.feedback .body {
+    display: flex;
+}
+.feedback .body-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 72px;
+    width: 36%;
+}
+.feedback .body-left .icon {
+    width: 36px;
+    height: 29px;
+}
+.feedback .body-left blockquote {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5; /* 150% */
+}
+.feedback .body-left .auth {
+    display: flex;
+    margin-top: 33px;
+    align-items: center;
+    /* justify-content: center; */
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+.feedback .body-left .auth strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.feedback .body-left .auth::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+.feedback .body-left .cta-group {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    margin-top: 52px;
+}
+.feedback .body-left button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* ========== Subscribe ========== */
+.subscribe {
+    margin-top: 130px;
+    background: #def6f5;
+}
+.subscribe .body {
+    padding: 76px 0 88px 0;
+    display: flex;
+    align-items: center;
+}
+.subscribe .body-left .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+.subscribe .body-left .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+}
+.subscribe .body-right .btn {
+    margin-left: 410px;
+    width: 186px;
+    height: 68px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+/* ========== Footer ========== */
+.footer {
+    margin-top: 130px;
+}
+.footer .row {
+    display: flex;
+}
+.footer .column {
+    margin-right: 144px;
+}
+.footer .column:nth-child(3) {
+    margin-right: 137px;
+}
+.footer .column:last-child {
+    margin-right: 0;
+}
+.footer .column .title {
+    margin-top: 12px;
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.footer .column .list {
+    margin-top: 26px;
+}
+.footer .column .list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    word-break: unset;
+}
+.footer .column .list li img {
+    margin-right: 9px;
+}
+.footer .column .list a {
+    color: #535353;
+    font-size: 1.6rem;
+}
+.footer .column .list li:hover a {
+    opacity: 0.8;
+}
+.footer .copy-right {
+    margin: 80px 0 50px 0;
+    text-align: center;
+}
+.footer .copy-right p {
+    color: #b0b5b4;
+    font-size: 1.8rem;
 }
